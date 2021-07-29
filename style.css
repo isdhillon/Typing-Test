@@ -1,0 +1,112 @@
+/*pplied to all elements*/
+*{
+    box-sizing: border-box;
+}
+/*Html tags*/
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    color: #3bba9c;
+    font-size: 4rem;
+}
+/*Main container*/
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2e3047 ;
+}
+/*Top section*/
+.heading-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Middle section*/
+.middle-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top-section{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.display-buttons{
+    height: 8rem;
+    width: 8rem;
+    background-color: #3bba9c;
+    margin-right: 10px;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.span-element{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.button-section{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cpm, .wpm, .errors, .accuracy, .time{
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5px;
+}
+/*Quote section*/
+.quote-section{
+    height: 8rem;;
+    width: 40rem;
+    background-color: #3bba9c;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+}
+/*typing section*/
+.typing-section{
+    height: 6rem;
+    width: 40rem;
+}
+.input{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    resize: none;
+}
+/*Restart button*/
+.restart{
+    height: 80%;
+    width: 8rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #707793;
+    z-index: 2;
+}
+.incorrect-char {
+    color: red;
+    text-decoration: underline;
+  }
+  .correct-char {
+    color: darkgreen;
+  }
